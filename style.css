@@ -1,0 +1,95 @@
+body{
+  background-image: url('https://thumbs.gfycat.com/AngryVibrantFinch-max-1mb.gif');
+  color: white;
+}
+.card{
+  border: 2px solid gray;
+  box-shadow: 5px 5px 5px lightblue;
+  height: 500px;
+  width 100%;
+  margin-top: 100px;
+  animation: maruf 1s infinite;
+}
+@keyframes maruf {
+  0% {
+    border-color: gray;
+    transition: 1s;
+  }
+  50% {
+    border-color: lightblue;
+    transition: 1s;
+    
+  }
+  100% {
+    border-color: white;
+    transition: 1s;
+    
+  }
+}
+.photo{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+h1,p{
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  color: red;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: black;
+  color: white
+}
+/*Instagram*/
+.fa-instagram{
+  background: black;
+  color: white
+}
+
+/* github */
+.fa-github{
+  background: black;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+/* YouTube*/
+.fa-youtube{
+  background: black;
+  color: white;
+}
+/* telegram */
+.fa-telegram{
+  background: black;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
